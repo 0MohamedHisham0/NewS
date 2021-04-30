@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav"
+    app:startDestination="@id/health_Frag">
+
+    <fragment
+        android:id="@+id/health_Frag"
+        android:name="com.dal4.news.Fragemets.Health_Frag"
+        android:label="Health_Frag" />
+    <fragment
+        android:id="@+id/science_Frag"
+        android:name="com.dal4.news.Fragemets.Science_Frag"
+        android:label="Science_Frag" />
+    <fragment
+        android:id="@+id/sports_Frag"
+        android:name="com.dal4.news.Fragemets.Sports_Frag"
+        android:label="Sports_Frag" />
+    <fragment
+        android:id="@+id/technology_Frag"
+        android:name="com.dal4.news.Fragemets.Technology_Frag"
+        android:label="Technology_Frag" />
+</navigation>

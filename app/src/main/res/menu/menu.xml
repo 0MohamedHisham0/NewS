@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/health_Frag"
+        android:icon="@drawable/health"
+        android:title="Health" />
+    <item
+        android:id="@+id/science_Frag"
+        android:icon="@drawable/science"
+        android:title="Science" />
+    <item
+        android:id="@+id/sports_Frag"
+        android:icon="@drawable/sprots"
+        android:title="Sports" />
+    <item
+        android:id="@+id/technology_Frag"
+        android:icon="@drawable/technology"
+        android:title="Technology" />
+</menu>
